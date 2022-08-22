@@ -22,7 +22,7 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - run: pip install -r ./requirements.txt && python ./源码版/tuisong/main.py
+    - run: pip install -r ./源码版/tuisongrequirements.txt && python ./源码版/tuisong/main.py
 
     env:
       APP_ID: ${{ secrets.APP_ID }}
